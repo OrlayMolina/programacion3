@@ -1,11 +1,22 @@
 package seguimiento_programacion3.personas;
 
+import seguimiento_programacion3.core.Cuenta;
+
 public class Cliente extends Persona{
+
+    private Cuenta cuenta;
 
     public Cliente() {
     }
 
-    public Cliente(String numeroDocumento, String primerNombre, String segundoNombre, String primerApellido, String segundoApellido, String direccion, String correo) {
+    public Cliente(String numeroDocumento, String primerNombre, String segundoNombre, String primerApellido,
+                   String segundoApellido, String direccion, String correo, Cuenta cuenta) {
+        super(numeroDocumento, primerNombre, segundoNombre, primerApellido, segundoApellido, direccion, correo);
+        this.cuenta = cuenta;
+    }
+
+    public Cliente(String numeroDocumento, String primerNombre, String segundoNombre, String primerApellido,
+                   String segundoApellido, String direccion, String correo) {
         super(numeroDocumento, primerNombre, segundoNombre, primerApellido, segundoApellido, direccion, correo);
     }
 
@@ -35,5 +46,13 @@ public class Cliente extends Persona{
      */
     public Cliente(String numeroDocumento, String primerNombre, String primerApellido, String correo) {
         super(numeroDocumento, primerNombre, null, primerApellido, null, null, correo);
+    }
+
+    public Cuenta getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(Cuenta cuenta) {
+        this.cuenta = cuenta;
     }
 }
