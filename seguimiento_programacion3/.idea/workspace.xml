@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f40ae9-5874-4d83-b79f-815019cce205" name="Changes" comment="Se crean las clases de Persona de la cual se podrán crear Clientes y empleados en la aplicación.&#10;&#10;Se agregan comentarios sobre el funcionamiento de algunos de los metodos principales.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/personas/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/utilidades/PersonaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/utilidades/TextFormatterUtil.java" afterDir="false" />
+    <list default="true" id="28f40ae9-5874-4d83-b79f-815019cce205" name="Changes" comment="Se crean PersonaUtil y TextFormatterUtil con herramientas de filtro y formato de texto de acuerdo al atributo que se desee varificar, ejemplo: que el formato de número de documento sea un string pero que solo lleve números no letras.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/ConsultaSaldo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/CuentaAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/CuentaCorriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/Deposito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/Retiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/core/Transaccion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -43,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/seguimiento_programacion3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
@@ -94,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676774146787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se crean PersonaUtil y TextFormatterUtil con herramientas de filtro y formato de texto de acuerdo al atributo que se desee varificar, ejemplo: que el formato de número de documento sea un string pero que solo lleve números no letras.">
+      <created>1676774720422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676774720422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se realiza el primer commit del proyecto con la configuración inicial del IDE." />
     <MESSAGE value="Se crean las clases de Persona de la cual se podrán crear Clientes y empleados en la aplicación.&#10;&#10;Se agregan comentarios sobre el funcionamiento de algunos de los metodos principales." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crean las clases de Persona de la cual se podrán crear Clientes y empleados en la aplicación.&#10;&#10;Se agregan comentarios sobre el funcionamiento de algunos de los metodos principales." />
+    <MESSAGE value="Se crean PersonaUtil y TextFormatterUtil con herramientas de filtro y formato de texto de acuerdo al atributo que se desee varificar, ejemplo: que el formato de número de documento sea un string pero que solo lleve números no letras." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crean PersonaUtil y TextFormatterUtil con herramientas de filtro y formato de texto de acuerdo al atributo que se desee varificar, ejemplo: que el formato de número de documento sea un string pero que solo lleve números no letras." />
   </component>
 </project>
