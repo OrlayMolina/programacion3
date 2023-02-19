@@ -1,6 +1,9 @@
 package seguimiento_programacion3.core;
 
+import seguimiento_programacion3.exceptions.ValorRequeridoException;
 import seguimiento_programacion3.personas.Cliente;
+
+import java.util.Objects;
 
 public class Cuenta {
 
@@ -15,6 +18,25 @@ public class Cuenta {
         this.numeroCta = numeroCta;
         this.cliente = cliente;
         this.saldo = saldo;
+    }
+
+    public static Cuenta of(String numeroCuenta,
+                            Cliente cliente, String saldo) throws ValorRequeridoException {
+
+        if (Objects.requireNonNull(numeroCuenta, "El número de cuenta es requerido").isEmpty()) {
+            throw new ValorRequeridoException(" número de cuenta");
+        }
+
+        if (cliente == null) {
+            throw new ValorRequeridoException(" el cliente es requerido");
+        }
+
+        if (Objects.requireNonNull(saldo, "El saldo del cliente es requerido").isEmpty()) {
+            throw new ValorRequeridoException(" el saldo");
+        }
+
+
+        return new Cuenta(numeroCuenta, cliente, saldo);
     }
 
     public String getNumeroCta() {

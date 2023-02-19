@@ -6,6 +6,7 @@ import seguimiento_programacion3.exceptions.ValorRequeridoException;
 import seguimiento_programacion3.personas.Cliente;
 import seguimiento_programacion3.personas.Empleado;
 import seguimiento_programacion3.personas.Persona;
+import seguimiento_programacion3.utilidades.CuentaUtil;
 import seguimiento_programacion3.utilidades.PersonaUtil;
 
 import java.util.ArrayList;
@@ -101,6 +102,30 @@ public class Banco {
                     .collect(Collectors.toUnmodifiableList());
         }
         return personaEncontrada;
+    }
+
+    /*******************/
+
+    public void adicionarCuenta(Cuenta cuenta) {
+
+
+        cuentas.add(cuenta);
+    }
+
+    public void removerCuenta(Cuenta cuenta) throws PersonaNoExisteException, ValorRequeridoException  {
+
+        cuentas.remove(cuenta);
+    }
+    public Optional<Cuenta> buscarPorTitularCta(String cliente) {
+        return cuentas.stream()
+                .filter(CuentaUtil.buscarPorTitularCta(cliente))
+                .findFirst();
+    }
+
+    public List<Cuenta> buscarCuenta(String numeroCta, String cliente, String saldo) {
+        return cuentas.stream()
+                .filter(CuentaUtil.buscarCuentaPorTodo(numeroCta, cliente, saldo))
+                .collect(Collectors.toUnmodifiableList());
     }
 
     public String getNombreEntidad() {
