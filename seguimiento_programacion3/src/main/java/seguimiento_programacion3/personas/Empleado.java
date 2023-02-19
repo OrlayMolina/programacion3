@@ -37,4 +37,6 @@ public class Empleado extends Persona{
     public Empleado(String numeroDocumento, String primerNombre, String primerApellido, String correo) {
         super(numeroDocumento, primerNombre, null, primerApellido, null, null, correo);
     }
+
+
 }

@@ -84,7 +84,7 @@ public class Persona {
     }
 
     /**
-     * se crean los métodos gettes and setters de la aplicación para mantener el encapsulamientos de los datos.
+     * se crean los métodos getters and setters de la aplicación para mantener el encapsulamientos de los datos.
      * @return getters
      */
     public String getNumeroDocumento() {
