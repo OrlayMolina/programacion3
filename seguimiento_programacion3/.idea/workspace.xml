@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f40ae9-5874-4d83-b79f-815019cce205" name="Changes" comment="" />
+    <list default="true" id="28f40ae9-5874-4d83-b79f-815019cce205" name="Changes" comment="Se realiza el primer commit del proyecto con la configuración inicial del IDE.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/exceptions/PersonaExisteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/exceptions/PersonaNoExisteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/exceptions/ValorRequeridoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/personas/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seguimiento_programacion3/personas/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,16 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -20,6 +37,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2Lw7kw1v0Ge6plRMMnmnixN25hp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +45,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="seguimiento_programacion3" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,6 +82,29 @@
       <option name="presentableId" value="Default" />
       <updated>1676770444848</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se realiza el primer commit del proyecto con la configuración inicial del IDE.">
+      <created>1676772302421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676772302421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se realiza el primer commit del proyecto con la configuración inicial del IDE." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se realiza el primer commit del proyecto con la configuración inicial del IDE." />
   </component>
 </project>
